@@ -11,18 +11,29 @@
 }
 
 #cuadro {
-    max-height: 17.5rem;
-    display: inline;
+    max-height: 480px;
     padding: .5rem;
+    border: 2px solid #4c585a;
+    background-color: var(--branco-palido);
 }
 
 #p-cuadro {
-    padding: .5rem;
+    margin-bottom: .25rem;
+    height: 10rem;
 }
 
 #bg-cuadro {
-    background-color: #d2dee3;
+    background-color: #acc4d5;
     margin: .25rem;
+}
+
+#bt-end {
+    position: absolute;
+    bottom: 0;
+}
+
+.block {
+    position: relative;
 }
 
 #banner-img {
