@@ -15,7 +15,7 @@ def contact():
     return render_template('contact.html')
 
 @app.route('/store')
-def store():
+def stored():
     return render_template('store.html')
 
 app.run(debug=True)
