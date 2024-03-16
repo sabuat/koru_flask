@@ -10,6 +10,12 @@
     max-height: 3rem;
 }
 
+.footer{
+    background-color: #fff;
+}
+
+/*Stilo index.html */
+
 #cuadro {
     max-height: 480px;
     padding: .5rem;
@@ -19,7 +25,9 @@
 
 #p-cuadro {
     margin-bottom: .25rem;
-    height: 10rem;
+    height: 16rem;
+    font-family: 'Gayathri';
+    font-weight: 400;
 }
 
 #bg-cuadro {
@@ -32,6 +40,11 @@
     bottom: 0;
 }
 
+button {
+    font-family: 'Syne';
+    font-weight: 500;
+}
+
 .block {
     position: relative;
 }
@@ -39,3 +52,57 @@
 #banner-img {
     max-width: auto;
 }
+
+#test {
+    background-color: #8d9a98;
+    margin-top: 2.5rem;
+    padding: 3rem;
+    color: #f5f5f7;
+}
+
+#test p {
+    color: #f5f5f7;
+    margin: 3rem;
+    font-family: 'Gayathri';
+    font-weight: 700;
+}
+
+#card-cont{
+    background-color: #d2dee3;
+    color: var(--verde-escuro);
+}
+
+#card-cont .label {
+    font-family: 'Gayathri';
+    font-weight: 400;
+    font-size: large;
+}
+
+#card-cont .input {
+    font-family: 'Gayathri';
+    font-weight: 700;
+    font-size: medium;
+}
+
+/*Style About*/
+
+#sobre {
+    background-color: #f5f5f7;
+    margin: 0rem;
+    padding: 2.5rem;
+}
+
+
+#sobre p {
+    font-family: 'Gayathri';
+    font-weight: 700;
+}
+
+#cuadro-sobre {
+    max-height: 480px;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    border: 2px solid #4c585a;
+    background-color: var(--branco-palido);
+}
+

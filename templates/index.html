@@ -6,13 +6,17 @@
     <title>Aquarela do Sur</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="static\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!--Header -->
     <header>
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-              <a class="navbar-item" href=#>
+              <a class="navbar-item" href='/'>
                 <img src='static\Logo_banner.png'>
               </a>
               <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -23,13 +27,13 @@
             </div>
             <div id="navbarBasicExample" class="navbar-menu">
               <div class="navbar-end mr-2">
-                <a class="navbar-item" href="/about">
+                <a class="navbar-item is-size-4" href="/about">
                   Sobre
                 </a>
-                <a class="navbar-item" href="/contact">
+                <a class="navbar-item is-size-4" href="/contact">
                   Contacto
                 </a>
-                <a class="navbar-item" href="/store">
+                <a class="navbar-item is-size-4" href="/store">
                   Loja
                 </a>    
               </div>
@@ -57,11 +61,11 @@
             </div>
             <div class="column">
               <div class="block">
-                <p id="p-cuadro" class="is-4 "> Com a vibração única de Salvador como minha musa, mergulhei no desafio de capturar a essência do Elevador Lacerda em um desenho à mão, em preto e branco. Este desenho é mais do que uma representação visual; é uma homenagem à rica tapeçaria cultural da Bahia, convidando o espectador a se perder na profundidade e na beleza da sua própria história.</p>
+                <p id="p-cuadro" class="is-size-5"> Com a vibração única de Salvador como minha musa, mergulhei no desafio de capturar a essência do Elevador Lacerda em um desenho à mão, em preto e branco. Este desenho é mais do que uma representação visual; é uma homenagem à rica tapeçaria cultural da Bahia, convidando o espectador a se perder na profundidade e na beleza da sua própria história.</p>
               </div>
             </div>
           </div>
-          <button class="button is-fullwidth">Comprar</button>
+          <button class="button is-large is-fullwidth">Comprar</button>
         </div>
 
         <div class="column">
@@ -73,11 +77,11 @@
             </div>
             <div class="column">
               <div class="block">
-                <p id="p-cuadro" class="is-4"> Com a técnica da aquarela digital, mergulhei nas paisagens imponentes das montanhas, buscando capturar a sua majestade e serenidade. As cores sutis se misturam harmoniosamente, criando profundidade e atmosfera, enquanto os contrastes entre luz e sombra dão vida à cena.</p>
+                <p id="p-cuadro" class="is-size-5"> Com a técnica da aquarela digital, mergulhei nas paisagens imponentes das montanhas, buscando capturar a sua majestade e serenidade. As cores sutis se misturam harmoniosamente, criando profundidade e atmosfera, enquanto os contrastes entre luz e sombra dão vida à cena.</p>
               </div>
             </div>
           </div>
-          <button class="button is-fullwidth">Comprar</button>
+          <button class="button is-large is-fullwidth">Comprar</button>
         </div>
 
         <div class="column">
@@ -89,16 +93,47 @@
             </div>
             <div class="column">
               <div class="block">
-                <p id="p-cuadro" class="is-4"> Com pincéis delicados e cores suaves, retratei uma lua cheia laranja, pendendo majestosamente sobre uma paisagem serena. Cada camada de tinta foi cuidadosamente aplicada para capturar a luminosidade suave da lua, enquanto as sombras profundas realçavam a beleza misteriosa da noite.</p>
+                <p id="p-cuadro" class="is-size-5"> Com pincéis delicados e cores suaves, retratei uma lua cheia laranja, pendendo majestosamente sobre uma paisagem serena. Cada camada de tinta foi cuidadosamente aplicada para capturar a luminosidade suave da lua, enquanto as sombras profundas realçavam a beleza misteriosa da noite.</p>
               </div>
             </div>
           </div>
-          <button class="button is-fullwidth">Comprar</button>
+          <button class="button is-large is-fullwidth">Comprar</button>
         </div>
       </div>
     </div>
    </div>
-    <!--Footer -->
+   <!--Testimonio-->
+   <div id="test" class="card">
+    <div class="card-content has-text-centered">
+      <p id="test-p " class="title">
+        "A obra que adquiri é verdadeiramente uma obra-prima. Cada detalhe meticuloso e cada pincelada cuidadosamente aplicada capturam a beleza e a essência da cena de uma forma que vai além das palavras. Sem dúvida, esta aquarela se tornou o destaque da minha coleção, e mal posso esperar para adquirir mais obras deste talentoso artista no futuro."
+      </p>
+      <p class="subtitle">
+        Carlos Augusto - <em>Arquiteto</em>
+      </p>
+    </div>
+  </div>
+
+   <!--Contacto Básico-->
+   <form id="card-cont" class="box">
+    <div class="column is-6 is-offset-one-quarter">
+      <div class="field">
+        <label class="label">Nome</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Nome Sobrenome">
+        </div>
+      </div>
+  
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="usuario@contato.aq">
+        </div>
+      </div>
+      <button class="button is-large">Contato</button>
+    </div>
+  </form>
+   <!--Footer -->
     <footer class="footer">
       <div class="content has-text-centered">
         <p>

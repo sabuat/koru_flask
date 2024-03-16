@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aquarela do Sur</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="static\style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header -->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="static\Logo_banner.png" />
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end mr-2">
+            <a class="navbar-item is-size-4" href="/about"> Sobre </a>
+            <a class="navbar-item is-size-4" href="/contact"> Contacto </a>
+            <a class="navbar-item is-size-4" href="/store"> Loja </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Content of the page -->
+    <form id="card-cont" class="box">
+      <div class="column is-4 is-offset-4">
+        <div class="field">
+          <label class="label">Nome</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Nome Sobrenome" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <input
+              class="input"
+              type="email"
+              placeholder="usuario@contato.aq"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Asunto</label>
+          <div class="control">
+            <div class="select">
+              <select>
+                <option>Escolha uma opção</option>
+                <option>Comprar uma aquarela personalizada</option>
+                <option>Proximos cursos</option>
+                <option>Entrevistas</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Menssagem</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Texto"></textarea>
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="control">
+            <label class="checkbox">
+              <input type="checkbox" />
+              Acepto o envio de informações sobre
+              <a href="#">Cursos e Ofertas</a>
+            </label>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-medium">Enviar</button>
+          </div>
+          <div class="control">
+            <button class="button is-medium is-light">Sair</button>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <!--Footer -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Aquarelas do SUR</strong> by
+          <a href="https://jgthms.com">Sabuat Urbina Ribeiro</a>. The website
+          content is licensed
+          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
+            >CC BY NC SA 4.0</a
+          >.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
