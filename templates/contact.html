@@ -42,20 +42,24 @@
         </div>
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end mr-2">
-            <a class="navbar-item is-size-4" href="/about"> Sobre </a>
-            <a class="navbar-item is-size-4" href="/contact"> Contacto </a>
-            <a class="navbar-item is-size-4" href="/store"> Loja </a>
+            <a class="navbar-item is-size-4" href= {{ url_for("about")}}> Sobre </a>
+            <a class="navbar-item is-size-4" href={{ url_for("contact")}}> Contacto </a>
+            <a class="navbar-item is-size-4" {{ url_for("store")}}> Loja </a>
           </div>
         </div>
       </nav>
     </header>
     <!--Content of the page -->
-    <form id="card-cont" class="box">
+    <form id="card-cont" class="box" action="/" method='POST'>
       <div class="column is-4 is-offset-4">
         <div class="field">
           <label class="label">Nome</label>
           <div class="control">
-            <input class="input" type="text" placeholder="Nome Sobrenome" />
+            <input 
+              class="input" 
+              type="text" 
+              name="Nome" 
+              placeholder="Nome Sobrenome" />
           </div>
         </div>
 
@@ -65,13 +69,14 @@
             <input
               class="input"
               type="email"
+              name="Email"
               placeholder="usuario@contato.aq"
             />
           </div>
         </div>
 
         <div class="field">
-          <label class="label">Asunto</label>
+          <label class="label">Assunto</label>
           <div class="control">
             <div class="select">
               <select>
@@ -87,7 +92,7 @@
         <div class="field">
           <label class="label">Menssagem</label>
           <div class="control">
-            <textarea class="textarea" placeholder="Texto"></textarea>
+            <textarea name="menssagem" class="textarea" placeholder="Texto"></textarea>
           </div>
         </div>
 
@@ -103,10 +108,10 @@
 
         <div class="field is-grouped">
           <div class="control">
-            <button class="button is-medium">Enviar</button>
+            <button type="submit" class="button is-medium">Enviar</button>
           </div>
           <div class="control">
-            <button class="button is-medium is-light">Sair</button>
+            <button type="reset" class="button is-medium is-light">Sair</button>
           </div>
         </div>
       </div>

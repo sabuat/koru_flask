@@ -27,15 +27,9 @@
             </div>
             <div id="navbarBasicExample" class="navbar-menu">
               <div class="navbar-end mr-2">
-                <a class="navbar-item is-size-4" href="/about">
-                  Sobre
-                </a>
-                <a class="navbar-item is-size-4" href="/contact">
-                  Contacto
-                </a>
-                <a class="navbar-item is-size-4" href="/store">
-                  Loja
-                </a>    
+                <a class="navbar-item is-size-4" href= {{ url_for("about")}}> Sobre </a>
+                <a class="navbar-item is-size-4" href={{ url_for("contact")}}> Contacto </a>
+                <a class="navbar-item is-size-4" {{ url_for("store")}}> Loja </a>    
               </div>
             </div>
           </nav>

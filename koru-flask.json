@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "koru-flask",
+  "private_key_id": "22f1136d93c4beb73fc5d4bc5541fcdc3a410ce1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCVnN/2M4R363TY\nz+3aGLIM+7yz5w516fMQAIMNYK1TCCFo0OhBNlq9BgunP6wqX+WZnjLfiw8YZUtu\nyoRVqpkjtJqnbGiv2areOYxhd+qke6sHbzMTX1J81pelymSp9Yu0e50Z7A2UEa3q\nTwtBynH0Oj951cWACLJnqjRw3++2VEaW5uuQmpnzUuc2Lwf0CPilYNvC6TusAUs+\nwddZfBqVUH1NQ7rm24E/7KuJQ7sXeXEcavdr11KoGsdcn+lIjyP6WotUtPVt/51H\n3ciuXE/1yjaqapKp1YkzA4f6285BESPtGnehyByO8+zbisjtAPph79PJBjNlIaIj\nLZ7tjyZZAgMBAAECggEACKDyUsUAXhk0lT+SwHodpL2NEdQg46CRTeo1pLsfa/ND\nWAP6bS5pF89GM0hrEcuTlqNG3FktDvNioRppfPZYnDRRmhfYxtGXNvdbNxDfNcrT\nH5vkdnjQLVaECwIMAbhhbRCXDDRuyQwm+2VBKTN3lIYafJidaie2QF/S4/KqZNnL\nWcGLMgRFidZKD/A4aU2EqEHRF29r6/u1+ZSc9IMoXF2egRMgVCK9XF6xhvKpUc5Z\nSGPdXOKvEz/vRaZvYHRsGLD5Cuvb4SNo61xC7tG95qJ81WNbNdZuUZAX9NKXQ34J\nXvhGeQ00Md1xECixo7C5eS2CTCf+32kd2mFKCU/+/QKBgQDNS+xocXHgmkF7xS3Y\nS2zGLuWpNtYLcpY+d5ZTEd0JdEpAExg3n7pvYrvkkah33bFKTeeCJATYSKJW7K5D\nCiUXOcJ9hAWgzhu4E6b7KpRdfiF8aHY+iYHXs9tUIjhWTngQgLZnsFXkIqGNtdoY\nii8rBPCPQQLL2jRhrKnnFc2iBQKBgQC6kEouoBEzhjiooutAhYxM5Hm3uEjOS0or\njuXay6bunouOZ5cxLBERp0Y4dIDqKfBPH5NXKG0srMhovoeiW1kqMKFrK5nstgSj\neKRvzkWAn2x8BdTt7S6EK1S7t4ywT0yRYfNdUZfLIx0xK0tYf4MdRovKdHQaqMd5\njxuKBFp/RQKBgHYzIYEc2AkOJ2fApl2jR5RvifE8Tk63AcQjjFx1q4L2/o0XsVjN\nUUUyXqYCKzIgZSQ36HQoktWINFfB269jlulhaxZjPe5Q3OrF/d0creGKbnM3neTx\nvN1Zg41USoV+lmhCA0N95mX8fnGd410/qlqldG+2aYq/LmuSQxx2lDeVAoGAbKZR\nfXvc6KvXXWacKRRdk/5PYI5jYDj6tglflZ+a1UbiMYnkxE9MlYJcY859sWHBQOM7\ntLuncSgjAtVLOmOGtwphR3+6AeAzLVy6Lx7q3TB7RnNDAVlrCLAPhc8skRVtmxF3\nYLZ+91+4xYTYOW7xVeBa0wok/82hdgrA2A0XAx0CgYBZL8PdXbW81FJs37PCRKBG\nwEfX7YHLTZaUJ+mhxVz38D8JiLvx7QnsFz4ZqueG2dSgJU5RRs1f+8YQH3EckYJl\n9FuDYrTP650PbC9G7VP6Xccs00tN/IrweIetgSs2SqbEvK3Fs4c9rAeMARnlR2A/\nzm+w1tt3MbGYCCj7SQnDrA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aquarelas@koru-flask.iam.gserviceaccount.com",
+  "client_id": "103622198344830987137",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aquarelas%40koru-flask.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
